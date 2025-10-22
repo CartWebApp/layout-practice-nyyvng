@@ -8,7 +8,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(79, 82, 96);
+    background-color: rgb(68, 71, 84);
     display: flex;
     justify-content: center;
 }
@@ -21,7 +21,7 @@ ul li a {
     display: block;
     color:rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 15px;
     text-decoration: none;
 }
 
@@ -40,9 +40,46 @@ section.introduction {
 
 }
 
-div.Intro {
-    font-size: x-large;
+h1 {
+    font-size: xxx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 150px;
+}
+
+div.Intro p {
+    font-size:medium;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align:center;
+    margin: -140px
+}
+
+/* div.Headlinegreen {
+    display: block;
+    display: -webkit-flex;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+
+} */
+
+.greenbutton {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
