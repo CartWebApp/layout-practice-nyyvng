@@ -6,9 +6,13 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px 10px;
+    height: 90px;
+    font-size: large;
     overflow: hidden;
     background-color: rgb(68, 71, 84);
+    border-color: rgb(94, 98, 116);
+    border-width: 2px;
     display: flex;
     justify-content: center;
 }
@@ -31,7 +35,8 @@ ul li a:hover {
 
 section.introduction {
     margin: 0;
-    width: 400;
+    padding: 0px;
+    width: 2000px;
     height: 400px;
     background-image: url(img11.jpg);
     background-repeat: no-repeat;
@@ -59,18 +64,6 @@ div.Intro p {
     margin: -140px
 }
 
-/* div.Headlinegreen {
-    display: block;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 10px;
-    height: 300px;
-
-} */
-
 .greenbutton {
     background-color: green;
     border: none;
@@ -82,4 +75,176 @@ div.Intro p {
     margin: 4px 10px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: medium;
+}
+
+.bluebutton {
+    background-color: rgb(71, 150, 207);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.redbutton {
+    background-color: rgb(129, 29, 29);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.readmore {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(104, 104, 104);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.readit {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(104, 104, 104);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.details {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(104, 104, 104);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.readmore {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(104, 104, 104);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.sendbutton {
+    background-color: rgb(27, 27, 27);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.headline {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+}
+
+.Headlinegreen h3 {
+    color: green;
+    margin: 20px;
+    font-size: larger;
+}
+
+.Headlinegreen p {
+    color: rgb(79, 79, 79);
+    margin: 20px;
+    font-size: medium;
+}
+
+.greenbutton {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Headlinegreen {
+    text-align:start;
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 100px;
+    padding: 20px;
+    height: 400px;
+    width: 800px;
+}
+
+.Headlineblue h3 {
+    color: rgb(71, 150, 207);
+    margin: 20px;
+    font-size: larger;
+}
+
+.Headlineblue p {
+    color: rgb(79, 79, 79);
+    margin: 20px;
+    font-size: medium;
+}
+
+.bluebutton {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Headlineblue {
+    text-align: start;
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 100px;
+    padding: 20px;
+    height: 400px;
+    width: 800px;
 }
