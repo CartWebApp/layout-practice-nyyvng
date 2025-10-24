@@ -197,9 +197,9 @@ div.Intro p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
     gap: 12px;
-    padding: 80px 10%;
+    padding: 70px 10%;
     text-align: center;
-    
+    margin-left: 170px
 }
 
 .Headlinegreen h3 {
@@ -313,10 +313,12 @@ div.Intro p {
     margin: 160px;
     padding: 20px;
     height: 580px;
-    width: 550px;
+    width: 650px;
+    margin-left: 370px;
     transform: translateY(-200px);
     background-image: url(img4.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .Right {
@@ -325,10 +327,12 @@ div.Intro p {
     margin: 800px;
     padding: 20px;
     height: 580px;
-    width: 550px;
+    width: 650px;
+    margin-left: 1050px;
     transform: translateY(-1580px);
     background-image: url(img5.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .Left h3 {
@@ -358,11 +362,18 @@ div.Intro p {
 .services {
     background-image: url(img13.jpg);
     background-repeat: no-repeat;
-    height: 340px;
-    text-align: center;
     color: white;
     padding: 120px;
     transform: translateY(-2300px);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
 }
 
 .services h2 {
@@ -378,9 +389,10 @@ div.Intro p {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 30px;
     padding: 80px 10%;
-    width: 1700px;
+    width: 2000px;
     height: 700px;
     background-color: white;
+    transform: translateY(-2100px);
 }
 
 .fourcolumns > div {
@@ -389,6 +401,67 @@ div.Intro p {
     text-align: center;
 }
 
-.fourcolumns h3 p {
-    
+.fourcolumns p {
+    text-align: start;
 }
+
+.Columnone {
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 20px;
+    height: 670px;
+    width: 380px;
+    margin-left: 0px;
+    transform: translateY(-200px);
+    background-image: url(img6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Columntwo {
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 20px;
+    height: 670px;
+    width: 380px;
+    margin-left: 0px;
+    transform: translateY(-200px);
+    background-image: url(img7.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.readit, .details {
+    transform: translateY(30px);
+}
+
+.Columnthree {
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 20px;
+    height: 670px;
+    width: 380px;
+    margin-left: 0px;
+    transform: translateY(-200px);
+    background-image: url(img8.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Columnfour {
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 20px;
+    height: 670px;
+    width: 380px;
+    margin-left: 0px;
+    transform: translateY(-200px);
+    background-image: url(img9.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
