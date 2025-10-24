@@ -1,68 +1,82 @@
 * {
     box-sizing: border-box;
+    border-color: None;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 10px;
-    height: 90px;
-    font-size: large;
-    overflow: hidden;
+body {
+    color: rgb(79, 79, 79);
+    line-height: 1.6;
+}
+
+
+/* nav bar */
+
+nav {
     background-color: rgb(68, 71, 84);
-    border-color: rgb(94, 98, 116);
-    border-width: 2px;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
-ul li {
-    float:inline-start;
-}
-
-ul li a {
-    display: block;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    padding: 15px 15px;
+nav ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
 }
 
-ul li a:hover {
-    background-color:rgb(94, 98, 116);
+nav ul li a:hover {
+    background-color: rgb(94, 98, 116);
 }
+
+/* introduction */
 
 section.introduction {
-    margin: 0;
-    padding: 0px;
-    width: 2000px;
-    height: 400px;
     background-image: url(img11.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: -500px;
-
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
 }
 
 h1 {
-    font-size: xxx-large;
+    font-size: 3rem;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px black;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    padding: 150px;
+    padding: 10px;
 }
 
 div.Intro p {
-    font-size:medium;
+    font-size: 2rem;
     color: white;
     text-shadow: 1px 1px black;
     text-align:center;
-    margin: -140px
+    margin: 0;
+    margin-bottom: 1pc;
 }
+
+/* buttons */
 
 .greenbutton {
     background-color: green;
@@ -181,12 +195,14 @@ div.Intro p {
     font-size: medium;
 }
 
+/* headlines */
+
 .headline {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap: 12px;
+    padding: 80px 10%;
+    text-align: center;
     
 }
 
@@ -213,10 +229,15 @@ div.Intro p {
     text-align:start;
     align-content: end;
     background-color: rgb(245, 245, 245);
-    margin: 100px;
+    margin: 0;
     padding: 20px;
-    height: 400px;
-    width: 800px;
+    height: 540px;
+    width: 350px;
+}
+
+.Headlinegreen {
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
 }
 
 .Headlineblue h3 {
@@ -240,11 +261,76 @@ div.Intro p {
 }
 
 .Headlineblue {
-    text-align: start;
+    text-align:start;
     align-content: end;
     background-color: rgb(245, 245, 245);
-    margin: 100px;
+    margin: 0;
     padding: 20px;
-    height: 400px;
-    width: 800px;
+    height: 540px;
+    width: 350px;
 }
+
+.Headlineblue {
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+}
+
+.Headlinered {
+    text-align:start;
+    align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+    padding: 20px;
+    height: 540px;
+    width: 350px;
+}
+
+.Headlinered {
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+}
+
+.Headlinered h3 {
+    color: rgb(129, 29, 29);
+    margin: 20px;
+    font-size: larger;
+}
+
+.Headlinered p {
+    color: rgb(79, 79, 79);
+    margin: 20px;
+    font-size: medium;
+}
+
+.redbutton {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* side columns */
+
+.sidecolumn {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 80px 6%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 80px 10%;
+    background-color: rgb(245, 245, 245);
+}
+
+.Left, .Right {
+    flex: 1 1 420px;
+    padding: 40px;
+    height: 340px;
+    min-width: 300px;
+    max-width: 560px;
+
+}
+
