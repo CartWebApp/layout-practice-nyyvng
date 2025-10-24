@@ -393,6 +393,7 @@ div.Intro p {
     height: 700px;
     background-color: white;
     transform: translateY(-2100px);
+    align-content: center;
 }
 
 .fourcolumns > div {
@@ -463,5 +464,10 @@ div.Intro p {
     background-image: url(img9.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.Columnone h3 p {
+    margin-bottom: 0px;
+    transform: translateY(-4pc);
 }
 
