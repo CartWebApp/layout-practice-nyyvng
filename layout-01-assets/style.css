@@ -177,6 +177,21 @@ div.Intro p {
     font-size: medium;
 }
 
+.readmorecolumn {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(212, 212, 212);
+    border-width: 2px;
+    color: rgb(104, 104, 104);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
 .sendbutton {
     background-color: rgb(27, 27, 27);
     border-color: rgb(255, 255, 255);
@@ -471,3 +486,114 @@ div.Intro p {
     transform: translateY(-4pc);
 }
 
+
+/* giant column */
+.giantcolumn {
+align-content: end;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 20px;
+    height: 65pc;
+    width: 101pc;
+    margin-left: 12pc;
+    transform: translateY(-2300px);
+    background-image: url(img10.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.giantcolumn p {
+    text-align: start;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 35px
+}
+
+.giantcolumn h3 {
+    margin-bottom: 10px;
+}
+
+.readmorecolumn {
+    margin-right: 400px;
+}
+
+
+/* contact form */
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(img14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.contactinfo h2 {
+    color:white;
+    text-shadow: 1px 1px black;
+    font-size: 3pc;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+
+.ContactForm p {
+    background:rgba(245, 245, 245, 0.3);
+    border-radius: 5px;
+    width: 50pc;
+    height: 5pc;
+    padding: 10px;
+    margin-bottom: 2pc;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    background: rgba(245, 245, 245, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+textarea {
+    grid-column: 1 / span 3;
+    height: 190px;
+    margin-bottom: 10pc;
+}
+
+.sendbutton {
+    grid-column: 2;
+    justify-self: center;
+    padding: 20px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 1pc;
+}
+
+.contactinfo {
+    transform: translateY(-2200px);
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 0.9rem;
+}
+
+
+/* all done but theres a lot of white space, tried to fix it */
