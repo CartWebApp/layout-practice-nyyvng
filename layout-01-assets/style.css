@@ -211,10 +211,10 @@ div.Intro p {
 .headline {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
-    gap: 12px;
-    padding: 70px 10%;
+    gap: 1px;
     text-align: center;
-    margin-left: 170px
+    margin: 30px;
+    margin-left: 290px
 }
 
 .Headlinegreen h3 {
@@ -267,8 +267,9 @@ div.Intro p {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    left: 50%;
+    left: 30%;
     transform: translateX(-50%);
+    transform: translateY(-35%);
 }
 
 .Headlineblue {
@@ -276,7 +277,7 @@ div.Intro p {
     align-content: end;
     background-color: rgb(245, 245, 245);
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     height: 540px;
     width: 350px;
 }
@@ -330,7 +331,7 @@ div.Intro p {
     height: 580px;
     width: 650px;
     margin-left: 370px;
-    transform: translateY(-200px);
+    transform: translateY(-130px);
     background-image: url(img4.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -344,7 +345,7 @@ div.Intro p {
     height: 580px;
     width: 650px;
     margin-left: 1050px;
-    transform: translateY(-1580px);
+    transform: translateY(-1510px);
     background-image: url(img5.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -562,6 +563,7 @@ input, textarea {
     border: none;
     outline: none;
     background: rgba(245, 245, 245, 0.3);
+    color: rgb(79, 79, 79);
     border-radius: 5px;
     padding: 10px;
     font-size: 14px;
